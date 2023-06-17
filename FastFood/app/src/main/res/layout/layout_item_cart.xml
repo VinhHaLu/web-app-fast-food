@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="6dp"
+    android:translationZ="1dp">
+    <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/check"
+        android:checked="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_toRightOf="@+id/check"
+        android:id="@+id/img_cart"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/h10"/>
+    <TextView
+        android:id="@+id/number_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_cart"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:text="1"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/number_cart"
+        android:text="X"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:id="@+id/info_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/X"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/title_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken-Soup"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$2.7"
+            android:textSize="15sp"
+            android:textColor="#fd8700"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_delete"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        app:tint="#fd8700" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/img_cart"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/grey"/>
+
+
+</RelativeLayout>

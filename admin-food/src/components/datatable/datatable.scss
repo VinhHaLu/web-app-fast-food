@@ -1,0 +1,76 @@
+.datatable {
+  height: 600px;
+  padding: 20px;
+  
+  .datatableTitle{
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link{
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .viewButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: darkblue;
+      border: 1px dotted rgba(0, 0, 139, 0.596);
+      cursor: pointer;
+    }
+    
+    .deleteButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: crimson;
+      border: 1px dotted rgba(220, 20, 60, 0.6);
+      cursor: pointer;
+    }
+  }
+ 
+
+.tableCell {
+      font-size: 16px;
+      font-weight: 300;
+      height: 20px;
+      
+  
+    .object-cover{
+      width: 50px;
+    }
+      &.id {
+        width: 2%;
+
+        text-align: center;
+        border-right: .05rem solid #c2bfbf
+      }  
+      &.product,&.price,&.sold,&{
+        width: 15%;
+        text-align: center;
+        border-right: .05rem solid  #c2bfbf;
+      }
+      &discount{
+        width: 35%;
+        text-align: center;
+      }
+     
+    }
+  }
+

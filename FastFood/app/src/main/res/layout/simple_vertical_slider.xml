@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="8dp">
+    <ImageView
+        android:id="@+id/pro_img"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/anything"
+        android:elevation="5dp" />
+    <LinearLayout
+        android:layout_toRightOf="@+id/pro_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/simple_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView6"
+            android:text="Chicken-Soup"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/simple_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/grey"
+            android:text="Healthy Food Guide makes it easy and enjoyable to eat well and feel great."
+            android:maxLength="20"
+            android:maxLines="1" />
+        <TextView
+            android:id="@+id/simple_saleoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sale off 20%-use code MUADIMA"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#fd8700"/>
+        <Button
+            android:id="@+id/buy_product"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Buy"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:background="@drawable/bg_continue123"
+            android:textSize="13sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/bg_ratting"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:id="@+id/tv_ratting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.3"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

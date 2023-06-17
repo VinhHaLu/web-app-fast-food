@@ -1,0 +1,70 @@
+.datatableoder {
+    height: 600px;
+    padding: 20px;
+    
+    .datatableTitle{
+      width: 100%;
+      font-size: 24px;
+      color: gray;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .table {
+
+        .tableCell {
+          font-size: 16px;
+          
+      
+          .cellWrapper {
+            display: flex;
+            align-items: center;
+      
+            img {
+             
+              border-radius: 1rem;
+              margin-right: 1rem;
+            }
+      
+            span {
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+            }
+          }
+
+          &.product {
+            width: 15%;
+            text-align: center;
+            border-right: .05rem solid #d6d1d1;
+          }
+      
+          &.email,
+          &.phone,
+          &.country
+           {
+            width: 26%;
+            text-align: center;
+            border-right: .05rem solid #e6e0e0;
+          }
+      
+          &.status {
+            width: 15%;
+            text-align: center;
+            border-left: .05rem solid #f0f0f0;
+      
+            span.on-sale {
+              color: #54B435;
+            }
+      
+            span.off-sale {
+              color: #E0144C;
+            }
+      
+          }
+        }
+      }
+}

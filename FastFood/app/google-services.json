@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1015501084533",
+    "firebase_url": "https://res-food-app-default-rtdb.firebaseio.com",
+    "project_id": "res-food-app",
+    "storage_bucket": "res-food-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015501084533:android:df8c251f4826b6dc6f653c",
+        "android_client_info": {
+          "package_name": "com.example.fastfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015501084533-265bk2p69624imdo5998beflnqjllvqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fastfood",
+            "certificate_hash": "4ea17bfbebaad2b4e3f9bc29eb8a6ef7ec4e2572"
+          }
+        },
+        {
+          "client_id": "1015501084533-i2np0jvbm7npg8563pabn01n2jh4t92b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRYnK4CpMvv3uj8dlVO3najNlJSeal2PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015501084533-i2np0jvbm7npg8563pabn01n2jh4t92b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

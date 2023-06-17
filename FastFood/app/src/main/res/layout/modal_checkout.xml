@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:id="@+id/dialog_addgroup"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/rv1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/rlavata"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:fontFamily="@font/poppinsbold"
+                    android:gravity="center"
+                    android:id="@+id/gmail_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FAST POOD"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Địa chỉ"
+                    android:textSize="16dp"/>
+                <EditText
+                    android:id="@+id/diachi"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nhập địa chỉ"
+                    android:background="@drawable/skip_button"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Số điện thoại"
+                    android:textSize="16dp"/>
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/phone"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nhập số điện thoại"
+                    android:background="@drawable/skip_button"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:background="@drawable/bg_continue123"
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:text="Huỷ"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp" />
+                <Button
+                    android:background="@drawable/bg_continue123"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@+id/btn_cancel"
+                    android:id="@+id/btn_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:text="Xác nhận" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+</RelativeLayout>

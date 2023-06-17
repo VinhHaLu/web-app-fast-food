@@ -1,0 +1,59 @@
+.box-login {
+    width: 100%;
+    height: 100vh;
+    background: var(--primary-color);
+  
+    .login-page {
+      width: 360px;
+      padding: 8% 0 0;
+      margin: auto;
+  
+      .form {
+        position: relative;
+        z-index: 1;
+        background: var(--white-color);
+        border-radius: .2rem;
+        max-width: 360px;
+        margin: 0 auto 100px;
+        padding: 45px;
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+        input {
+          background: var(--background-color);
+          width: 100%;
+          border: none;
+          outline: none;
+          margin: 0 0 15px;
+          padding: 15px;
+          box-sizing: border-box;
+          border-radius: .2rem;
+          font-size: 14px;
+        
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+  
+        button {
+            width: 150px;
+            padding: 10px;
+            text-transform: uppercase;
+            border: .1rem solid rgb(201, 186, 186);
+            outline: none;
+            padding: 15px;
+            color: brown;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            border-radius: .2rem;
+            box-shadow: rgba(180, 129, 129, 0.35) 0px 5px 15px;
+  
+          &:hover {
+            background: var(--primary-color);
+            color: var(--white-color);
+            transition: .2s;
+          }
+        }
+  
+      }
+    }
+  }
